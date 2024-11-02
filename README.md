@@ -1,16 +1,63 @@
-# machineautomation
+Elastic Machine Controller Flutter App
+This Flutter app is designed to control an Elastic Machine Controller (EMC) based on real-time production data. It connects to a backend production system, retrieves real-time data, and allows operators to control machine settings, view production status, and make adjustments directly from their mobile devices.
 
-A new Flutter project.
+Features
+Real-Time Production Monitoring: Fetch and display live data from the production system.
+Machine Control: Start, stop, and adjust machine settings through an intuitive interface.
+Analytics & Reports: Generate and view reports based on historical production data.
+User Authentication: Secure login system to ensure only authorized users can access machine controls.
+Screenshots
+Here are some screenshots to demonstrate the app's functionality:
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+Installation
+Prerequisites
+Flutter SDK: Ensure you have Flutter installed. Follow the instructions here to set up Flutter.
+Backend API: This app requires a backend API to fetch production data and control the machine. Ensure you have access to the API or a local instance running.
+Steps
+Clone the repository:
 
-A few resources to get you started if this is your first Flutter project:
+bash
+Copy code
+git clone https://github.com/plabon5150/IOTElasticMachineOpApp.git
+cd elastic-machine-controller
+Install dependencies:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+bash
+Copy code
+flutter pub get
+Set up environment variables:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Create a .env file in the root of the project and add your API base URL and authentication details as needed:
+
+env
+Copy code
+API_BASE_URL=https://your-api-url.com
+API_KEY=your_api_key
+Run the app:
+
+bash
+Copy code
+flutter run
+The app should now launch in your connected emulator or physical device.
+
+Usage
+Login: Open the app and log in using your credentials. Only authorized users will be able to access machine controls.
+View Machine Status: Navigate to the "Status" section to view real-time data from the machine.
+Control Machine: Access the "Control" panel to start, stop, or modify machine settings based on real-time requirements.
+Analytics and Reports: Generate reports from the historical production data for insights into machine performance and efficiency.
+Contributing
+Contributions are welcome! Please follow these steps:
+
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Make your changes and commit them with clear commit messages.
+Push to your fork and submit a pull request.
+
+
+
+You can download and view the demo video [here](./screenshots/welcome.mp4).
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
