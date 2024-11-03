@@ -42,17 +42,15 @@ flutter run
 The app should now launch in your connected emulator or physical device.
 
 Usage
-Login: Open the app and log in using your credentials. Only authorized users will be able to access machine controls.
-View Machine Status: Navigate to the "Status" section to view real-time data from the machine.
-Control Machine: Access the "Control" panel to start, stop, or modify machine settings based on real-time requirements.
-Analytics and Reports: Generate reports from the historical production data for insights into machine performance and efficiency.
-Contributing
-Contributions are welcome! Please follow these steps:
+Login: Open the app and log in using RFID. Only authorized users will be able to access machine controls.
 
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and commit them with clear commit messages.
-Push to your fork and submit a pull request.
+View Machine Status: Navigate to the "Status" section to view real-time data from the machine.
+
+Control Machine: Access the "Control" panel to start, stop, or modify machine settings based on real-time requirements.
+
+Analytics and Reports: Generate reports from the historical production data for insights into machine performance and efficiency.
+
+MODBUS TEST-SY500
 
 
 
