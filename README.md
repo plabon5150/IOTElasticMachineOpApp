@@ -54,7 +54,6 @@ MODBUS TEST-SY500,SY9000
 
 
 
-You can download and view the demo video [here](./screenshots/welcome.mp4).
 
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
