@@ -50,7 +50,7 @@ Control Machine: Access the "Control" panel to start, stop, or modify machine se
 
 Analytics and Reports: Generate reports from the historical production data for insights into machine performance and efficiency.
 
-MODBUS TEST-SY500
+MODBUS TEST-SY500,SY9000
 
 
 
